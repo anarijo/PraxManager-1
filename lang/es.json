@@ -1,3 +1,4 @@
+
 {
     "profile": {
         "Profile": "Archivo", 
@@ -26,7 +27,7 @@
         "Welcome !": "¡Bienvenido!", 
         "PraxManager is on line instrument destined to monitor and evaluate the practical training of the students in several specializations from healthcare education field, offering in the same time an overview on the evolution of the students during their training and the performance of the schools in time.": "PraxManager es un instrumento de evaluación online destinado a monitorizar y evaluar el período de prácticas de los estudiantes en varias especialidades del campo sanitario en educación, ofreciendo al mismo tiempo una visión de la evolución del estudiante durante sus prácticas y su formación en los centros educativos.", 
         "Internship": "Práctica", 
-        "PRAX-Manager, the software developed in the project is tested and documented during the project lifetime, in local context, in the daily activities of other partner schools and in transnational mobilities for students.": "PraxManager, el software desarrollado en el proyecto es chequeado y documentado durante el período de vida del mismo, en un contexto local, en las actividades diarias de otras escuelas socias y en movilidades transnacionales de los estudiantes.",
+        "PRAX-Manager, the software developed in the project is tested and documented during the project lifetime, in local context, in the daily activities of other partner schools and in transnational mobilities for students.": "PraxManager, el software desarrollado en el proyecto es chequeado y documentado durante el período de vida del mismo, en un contexto local, en las actividades diarias de otras escuelas socias y en movilidades transnacionales de los estudiantes.", 
         "Start": "Comenzar", 
         "You can start by creating a new": "Puedes comenzar creando uno", 
         "or by defining a new": "o definir uno nuevo", 
@@ -47,7 +48,7 @@
         "Users": "Usuarios", 
         "Type": "Tipo", 
         "An error occurred while updating the password": "Ocurrió un error mientras accedía con la contraseña", 
-        "Save User": "Guardar usuario", 
+        "Save User": "Grabar usuario", 
         "Student": "Estudiante", 
         "Account successfully created": "Cuenta creada con éxito", 
         "Teacher": "Profesor", 
@@ -61,7 +62,7 @@
         "Error": "Error", 
         "Your account is now ready to use.": "Su cuenta está ahora lista para su uso.", 
         "Your password has been updated by the Administrator": "Su contraseña ha sido actualizada por el Administrador", 
-        "Delete": "Borrar", 
+        "Delete": "Eliminar", 
         "Email (required)": "Correo electrónico (obligatorio)", 
         "Last Name (required)": "Apellido (obligatorio)", 
         "Last Name": "Apellido", 
@@ -69,7 +70,7 @@
         "Tag": "Etiqueta", 
         "Send Password": "Enviar contraseña", 
         "Cancel": "Cancelar", 
-        "Add User": "Añadir Usuario", 
+        "Add User": "Añadir usuario", 
         "Your new password is": "Su nueva contraseña es", 
         "Type (required)": "Tipo (obligatorio)"
     }, 
@@ -108,7 +109,8 @@
         "Close": "Cerrar", 
         "Form Name": "Nombre de formulario", 
         "No forms available to complete.": "No hay formularios disponibles para completar.", 
-        "Please leave a comment here or upload a audio / video file": "Por favor deje un comentario aquí o suba un archive de audio"
+        "Please leave a comment here or upload a audio / video file": "Por favor deje un comentario aquí o suba un archive de audio", 
+        "Save": "Guardar"
     }, 
     "settings": {
         "All": "Todo", 
@@ -135,7 +137,12 @@
         "Date": "Fecha"
     }, 
     "error": {}, 
-    "reset_password": {}, 
+    "reset_password": {
+        "Your new password is: ": "Su nueva contraseña es:", 
+        "New password": "Nueva contraseña", 
+        "Reset password": "Restablecer la contraseña", 
+        "Click the link below to reset your account password:": "Haga clic en el siguiente enlace para restablecer la contraseña de la cuenta:"
+    }, 
     "includes": {
         "head": {
             "Profile": "Perfil", 
@@ -143,7 +150,8 @@
             "Log Out": "Desconectarse", 
             "Toggle navigation": "Conmutar navegación", 
             "Inbox": "Bandeja de entrada", 
-            "Read All New Messages": "Leer nuevos mensajes"
+            "Read All New Messages": "Leer nuevos mensajes", 
+            "Student View": "Vista como estudiante"
         }, 
         "sidebar": {
             "Forms": "Formularios", 
@@ -159,10 +167,10 @@
             "Download Video File": "Descargar archivo de vídeo", 
             "No": "No", 
             "Teacher Evaluation": "Evaluación del profesor", 
-            "Explain your option here": "Escribe tu opinión aquí", 
+            "Explain your option here": "Escriba su opinión aquí", 
             "Download Image": "Descargar imagen", 
             "Download Document": "Descargar documento", 
-            "Give feedback to the student here": "Comentarios y sugerencias al estudiante aquí", 
+            "Give feedback to the student here": "Escriba los comentarios y sugerencias para el estudiante aquí", 
             "Yes": "Si", 
             "Download Audio File": "Descargar archivo de audio", 
             "True": "Verdad"
@@ -182,7 +190,7 @@
         "This form needs to be filled (required)": "Este formulario debe ser llenado (obligatorio)", 
         "Number answer": "Número de respuesta", 
         "Save": "Guardar", 
-        "Save Question": "Guardar cuestiones", 
+        "Save Question": "Guardar pregunta", 
         "Empty": "Vacío", 
         "Document": "Documento", 
         "Add choice": "Añadir elección", 
@@ -193,7 +201,7 @@
         "Photo": "Foto", 
         "Student": "Estudiante", 
         "True or false": "Cierto o Falso", 
-        "Delete": "Borrar", 
+        "Delete": "Eliminar", 
         "Optional": "Opcional", 
         "Add subject": "Añadir tema", 
         "Category of the form": "Categoría del formulario", 
@@ -201,22 +209,22 @@
         "Yes or No": "Sí o No", 
         "Edit": "Editar", 
         "Type your question here ...": "Escriba su pregunta aquí", 
-        "Required": "obligatorio", 
+        "Required": "Obligatorio", 
         "Short answer": "Respuesta corta", 
         "Choices": "Elección", 
         "Upload Form": "Subir formulario", 
         "Preview Form": "Vista previa del formulario", 
         "Category (required)": "Categoría (obligatorio)", 
         "Internship Summary": "Resumen de prácticas", 
-        "Question / Task": "Cuestión  /Tarea", 
+        "Question / Task": "Cuestión/Tarea", 
         "Save Subject": "Guardar tema", 
-        "Number of Questions": "Número de cuestiones", 
+        "Number of Questions": "Número de preguntas", 
         "Short description ...": "Descripción corta", 
         "Forms": "Formularios", 
         "Type": "Tipo", 
         "Form Type  (required)": "Tipo de formulario (obligatorio)", 
         "Student and teacher": "Estudiante y profesor", 
-        "Add Question": "Agregar cuestión", 
+        "Add Question": "Agregar pregunta", 
         "Multiple choice multiple answer": "Respuestas multiples de elección múltiple", 
         "Description:": "Descripción", 
         "Read Only": "Sólo de Lectura", 
@@ -224,7 +232,7 @@
         "Edit Question": "Editar pregunta", 
         "remove": "Eliminar", 
         "Video recording": "Grabación de video", 
-        "Collect Data Interval  (required)": "Intervalo de Recogida de Datos", 
+        "Collect Data Interval  (required)": "Intervalo de recogida de datos", 
         "General": "General", 
         "Required for checkin (required)": "Se requiere para el registro (obligatorio)", 
         "Form Name (required)": "Nombre de formulario (obligatorio)", 
@@ -233,7 +241,8 @@
         "Form Name": "Nombre de formulario", 
         "Add Form": "Agregar formulario", 
         "Name of the form": " Nombre de formulario ", 
-        "Preview": "Vista previa"
+        "Preview": "Vista previa", 
+        "Please provide feedback on the following questions.": "Por favor proporcionar información sobre las siguientes preguntas."
     }, 
     "notifications": {
         "Notification from": "Notificación de"
@@ -247,7 +256,7 @@
         "Format": "Formato", 
         "Internship": "Práctica", 
         "Student Name": "Nombre de estudiante", 
-        "Download Summary": "Resumen de la descarga", 
+        "Download Summary": "Descargar Resumen", 
         "Student": "Estudiante", 
         "Download Form": "Descargar formulario", 
         "internship": {
@@ -255,7 +264,7 @@
             "Form": "Formulario", 
             "No": "No", 
             "Internship": "Práctica", 
-            "Question / Task": "Pregunta / Tarea", 
+            "Question / Task": "Pregunta/Tarea", 
             "Yes": "Sí", 
             "Total": "Total", 
             "True": "Cierto", 
@@ -355,7 +364,7 @@
             "Submited Forms": "Enviar formulario", 
             "Student Presence": "Control de asistencia", 
             "Send": "Enviar", 
-            "Save": "Salvar", 
+            "Save": "Guardar", 
             "Email": "Email", 
             "Internships": "Prácticas", 
             "Send Notification": "Enviar notificación", 
@@ -439,10 +448,10 @@
         "Manage Student": "Gestión del estudiante", 
         "Daily Form": "Formulario diario", 
         "Last 30 days": "Últimos 30 días", 
-        "View as student": "Ver como estudiante", 
+        "View as student": "Vista como estudiante", 
         "Time based": "Jornada", 
         "Student Presence Confirmation": "Confirmación de la asistencia del estudiante", 
-        "Delete": "Borrar", 
+        "Delete": "Eliminar", 
         "Add Form": "Agregar formulario", 
         "Edit review": "Editar el examen", 
         "days": "días", 
@@ -455,7 +464,7 @@
             "Save": "Guardar", 
             "Pending": "Pendiente ", 
             "Status": "Estado", 
-            "Logged Time": "Hora de conexión", 
+            "Logged Time": "Hora de prácticas", 
             "Uploaded Media File": "Subir archivo multimedia", 
             "Rejected": "Rechazado", 
             "Internships": "Prácticas", 
@@ -482,14 +491,14 @@
         "View": "Ver", 
         "End Date (required)": "Fecha final (obligatorio)", 
         "Checkin Date": " Fecha de registro ", 
-        "Add Manager to internship": "Añadir gestor de la práctica", 
+        "Add Manager to internship": "Añadir tutor de la práctica", 
         "Collect Data Type (required)": "Recopilar tipo de datos (obligatorio)", 
         "Manage": "Gestión", 
         "Institution": "Institución", 
         "Cancel": "Cancelar", 
         "Close": "Cerrar", 
         "Internship Name": "Nombre de la práctica", 
-        "Archive": "Archivo", 
+        "Archive": "Archivar", 
         "Submited Forms": "Formularios enviados", 
         "Name of the institution of the internship": "Nombre de la institución de prácticas", 
         "Submit": "Enviar", 
@@ -518,6 +527,9 @@
             "Internships": "Prácticas"
         }, 
         "Total number of days": "Número total de días", 
-        "Internship Student Presence": "Asistencia del estudiante a las prácticas"
+        "Internship Student Presence": "Asistencia del estudiante a las prácticas", 
+        "Add students by tag": "Añadir los estudiantes por etiqueta", 
+        "Search": "Buscar", 
+        "Tags": "Etiquetas"
     }
 }
