@@ -1,4 +1,3 @@
-
 {
     "profile": {
         "Profile": "Archivo", 
@@ -88,7 +87,7 @@
         "Download Audio File": "Bajar archivo de Audio", 
         "Description": "Descripción", 
         "Form": "Formulario", 
-        "Error while checking in": "Error en comprobación", 
+        "Error while checking in": "Error de comprobación", 
         "Internship": "Práctica", 
         "Not completed": "No completado", 
         "Checkin": "Registrarse", 
@@ -110,7 +109,9 @@
         "Form Name": "Nombre de formulario", 
         "No forms available to complete.": "No hay formularios disponibles para completar.", 
         "Please leave a comment here or upload a audio / video file": "Por favor deje un comentario aquí o suba un archive de audio", 
-        "Save": "Guardar"
+        "Save": "Guardar", 
+        "Upload Audio": "Carga de audio", 
+        "Upload Video": "Subir vídeo"
     }, 
     "settings": {
         "All": "Todo", 
@@ -227,7 +228,7 @@
         "Add Question": "Agregar pregunta", 
         "Multiple choice multiple answer": "Respuestas multiples de elección múltiple", 
         "Description:": "Descripción", 
-        "Read Only": "Sólo de Lectura", 
+        "Read Only": "Sólo de lectura", 
         "Manage": "Administrar", 
         "Edit Question": "Editar pregunta", 
         "remove": "Eliminar", 
@@ -242,7 +243,9 @@
         "Add Form": "Agregar formulario", 
         "Name of the form": " Nombre de formulario ", 
         "Preview": "Vista previa", 
-        "Please provide feedback on the following questions.": "Por favor proporcionar información sobre las siguientes preguntas."
+        "Please provide feedback on the following questions.": "Por favor proporcionar información sobre las siguientes preguntas.", 
+        "The student needs to complete this form before checkin": "El estudiante tiene que completar este formulario antes de registrar", 
+        "Download": "Descargar"
     }, 
     "notifications": {
         "Notification from": "Notificación de"
@@ -256,7 +259,7 @@
         "Format": "Formato", 
         "Internship": "Práctica", 
         "Student Name": "Nombre del estudiante", 
-        "Download Summary": "Descargar Resumen", 
+        "Download Summary": "Descargar resumen", 
         "Student": "Estudiante", 
         "Download Form": "Descargar formulario", 
         "internship": {
@@ -351,7 +354,7 @@
                 "No": "No", 
                 "Internship Tasks": "Tareas de la práctica", 
                 "Student name": "Nombre del estudiante", 
-                "True": "Cierto", 
+                "True": "Verdadero", 
                 "Yes": "Sí", 
                 "Internship name": "Nombre de la práctica", 
                 "Subject": "Tema"
@@ -403,12 +406,12 @@
             "Edit": "Editar", 
             "Daily Form": "Formulario diario", 
             "General Form": "Formulario general", 
-            "Internship Forms Student": "Formularios de la Práctica del Estudiante", 
+            "Internship Forms Student": "Formularios de la práctica del estudiante", 
             "Internships Students": "Prácticas de los estudiantes", 
             "Manage": "Administrar", 
             "View": "Ver", 
             "Close": "Cerrar", 
-            "Form Name": "Nombre del estudiante", 
+            "Form Name": "Nombre del formulario", 
             "Student Forms": "Formularios del estudiante"
         }, 
         "Submit teacher review": "Enviar la revision del profesor", 
@@ -419,10 +422,10 @@
         "Register": "Registro", 
         "Last 3 days": "Últimos 3 días", 
         "Add forms to internship": "Añadir formularios a la práctica", 
-        "Name of the internship": "Nombre de la Práctica", 
-        "General Form": "Formulario General", 
+        "Name of the internship": "Nombre de la práctica", 
+        "General Form": "Formulario general", 
         "Internship Forms Student": "Formularios de la práctica del estudiante ", 
-        "Add students to internship": "Añadir estudiantes a la Práctica", 
+        "Add students to internship": "Añadir estudiantes a la práctica", 
         "Internships Students": "Prácticas de los estudiantes", 
         "Intership Name (required)": "Nombre de la práctica (obligatorio)", 
         "Add Student": "Agregar estudiante", 
@@ -530,6 +533,8 @@
         "Internship Student Presence": "Asistencia del estudiante a la práctica", 
         "Add students by tag": "Añadir los estudiantes por etiqueta", 
         "Search": "Buscar", 
-        "Tags": "Etiquetas"
+        "Tags": "Etiquetas", 
+        "Add Internship Manager": "Añadir tutor de la práctica", 
+        "A student can change his answer for (required)": "Un estudiante puede cambiar su respuesta durante (obligatorio)"
     }
 }
